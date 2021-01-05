@@ -4,7 +4,7 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: "Gatbsy and Contentful Website",
+    title: "Gatsby and Contentful Website",
   },
   plugins: [
     {
