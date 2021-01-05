@@ -9,6 +9,7 @@ const LocationPage = ({ data }) => {
     <Layout>
       <Head title={`${data.contentfulLocation.title} Office`} />
       <h1>{data.contentfulLocation.title}</h1>
+      <p>We have offices in {data.contentfulLocation.title}</p>
 
       <BasicLink to="/locations">Back to all locations</BasicLink>
     </Layout>
