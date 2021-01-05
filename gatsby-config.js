@@ -6,6 +6,8 @@ module.exports = {
   siteMetadata: {
     title: "Gatsby and Contentful Website",
     siteUrl: "https://gdhebling.com",
+    description: "My Gatsby and Contentful Website",
+    author: "Guilherme Hebling",
   },
   plugins: [
     {
