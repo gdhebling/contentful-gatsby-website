@@ -5,6 +5,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: "Gatsby and Contentful Website",
+    siteUrl: "https://gdhebling.com",
   },
   plugins: [
     {
