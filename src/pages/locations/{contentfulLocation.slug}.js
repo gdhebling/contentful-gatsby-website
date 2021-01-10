@@ -9,9 +9,13 @@ const LocationPage = ({ data }) => {
     <Layout>
       <Head title={`${data.contentfulLocation.title} Office`} />
       <h1>{data.contentfulLocation.title}</h1>
-      <p>We have offices in {data.contentfulLocation.title}</p>
+      <p>Welcome to our {data.contentfulLocation.title} office.</p>
+      <img src={`http:${data.contentfulLocation.locationImage.fluid.src}`} alt="" />
+      {console.log(data.contentfulLocation.locationImage)}
 
-      <BasicLink to="/locations">Back to all locations</BasicLink>
+      <p>
+        <BasicLink to="/locations">Back to all locations</BasicLink>
+      </p>
     </Layout>
   )
 }
@@ -20,8 +24,26 @@ export const pageQuery = graphql`
 query SingleLocationQuery($id: String) {
   contentfulLocation(id: {eq: $id}) {
     id
-    title
     slug
+    title
+    body {
+      raw
+      references {
+        ... on ContentfulAsset {
+          contentful_id
+          fluid(maxWidth: 400) {
+            src
+            srcSet
+          }
+        }
+      }
+    }
+    locationImage {
+      fluid(maxWidth: 600) {
+        src
+        srcSet
+      }
+    }
   }
 }
 `

@@ -5,7 +5,7 @@ import Nav from './Nav'
 
 const Main = styled.main`
     color: #232129;
-    padding: 96px;
+    margin: 0 5rem;
 `
 
 const Layout = ({ children }) => {

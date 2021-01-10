@@ -8,7 +8,7 @@ const NavBar = styled.nav`
     align-items: center;
     /* justify-content: space-between; */
 
-    margin: 2rem 4rem;
+    padding: 1rem 2rem;
 
     ul {
         display: flex;
@@ -21,7 +21,6 @@ const NavBar = styled.nav`
 `
 
 const Logo = styled.h1`
-    padding: 0 2rem 0;
     font-weight: 900;
 
     a {
