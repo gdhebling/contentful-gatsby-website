@@ -14,7 +14,7 @@ const LocationPage = ({ data }) => {
       {console.log(data.contentfulLocation.locationImage)}
 
       <p>
-        <BasicLink to="/locations">Back to all locations</BasicLink>
+        <BasicLink to="/locations">&larr; Back to all locations</BasicLink>
       </p>
     </Layout>
   )
