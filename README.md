@@ -3,7 +3,9 @@
   Gatsby + Contentful
 </h1>
 
-A  Gatsby + Contentful + Netlify website. Created with Gatsby JS, powered by Contentful as its headless CMS, and deployed and hosted to Gatsby Cloud with continuous rebuild.
+A  Gatsby + Contentful + Netlify website. Created with Gatsby JS, powered by Contentful as its headless CMS, and deployed and hosted to Gatsby Cloud with continuous rebuild.  
+
+This is proof of concept and a work in progress. 🛠
 
 #### Deployed at https://contentfulgatsbywebsite.gtsb.io/
 
@@ -19,4 +21,4 @@ A  Gatsby + Contentful + Netlify website. Created with Gatsby JS, powered by Con
 </p>
 
 ## 🎯 Next steps
-This is a first proof of concept to test Gatsby routing API, building, hosting, and Contentful integration. This project allowed me to better understanding how to grab and handle data from a headless CMS using GraphQL. This is a work in progress. 🛠
+This is a first proof of concept to test Gatsby routing API, building, hosting, and Contentful integration. This project allowed me to better understanding how to grab and handle data from a headless CMS using GraphQL. 
