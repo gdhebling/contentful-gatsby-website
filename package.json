@@ -16,8 +16,10 @@
     },
     "license": "0BSD",
     "dependencies": {
+        "@contentful/rich-text-html-renderer": "^14.1.2",
         "@contentful/rich-text-react-renderer": "^14.1.2",
         "babel-plugin-styled-components": "^1.12.0",
+        "contentful": "^7.15.2",
         "dotenv": "^8.2.0",
         "gatsby": "^2.30.1",
         "gatsby-image": "^2.8.0",

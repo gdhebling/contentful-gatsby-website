@@ -11,7 +11,10 @@ const LocationPage = ({ data }) => {
       <h1>{data.contentfulLocation.title}</h1>
       <p>Welcome to our {data.contentfulLocation.title} office.</p>
       <img src={`http:${data.contentfulLocation.locationImage.fluid.src}`} alt="" />
-      {console.log(data.contentfulLocation.locationImage)}
+
+      {/* <p>
+        {console.log(data.contentfulLocation.body.raw)}
+      </p> */}
 
       <p>
         <BasicLink to="/locations">&larr; Back to all locations</BasicLink>
@@ -43,6 +46,10 @@ query SingleLocationQuery($id: String) {
         src
         srcSet
       }
+    }
+    location {
+      lat
+      lon
     }
   }
 }
