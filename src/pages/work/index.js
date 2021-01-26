@@ -19,7 +19,7 @@ const WorkPage = () => {
   return (
     <Layout>
       <Head title="Work" />
-      <h1>Work Page</h1>
+      <h1>Work Page Index</h1>
     </Layout>
   );
 };
