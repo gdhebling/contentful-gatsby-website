@@ -17,7 +17,7 @@ This is proof of concept and a work in progress. 🛠
 <a href="https://github.com/gdhebling"><img alt="GraphQL" src="https://api.iconify.design/logos:graphql.svg" width="28" /></a>&nbsp
 <a href="https://github.com/gdhebling"><img alt="Contentful" src="https://api.iconify.design/logos-contentful.svg" width="26" /></a>&nbsp
 <a href="https://github.com/gdhebling"><img alt="Netlify" src="https://api.iconify.design/vscode-icons:file-type-netlify.svg" width="32" /></a>&nbsp
-<a href="https://github.com/gdhebling"><img alt="Netlify" src="https://avatars2.githubusercontent.com/u/20658825?s=200&v=4" width="32" /></a>
+<a href="https://github.com/gdhebling"><img alt="Styled Components" src="https://avatars2.githubusercontent.com/u/20658825?s=200&v=4" width="32" /></a>
 </p>
 
 ## 🎯 Next steps
